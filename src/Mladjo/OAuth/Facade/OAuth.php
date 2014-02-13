@@ -1,11 +1,11 @@
 <?php 
 /**
- * @author     Dariusz Prząda <artdarek@gmail.com>
- * @copyright  Copyright (c) 2013
+ * @author     Maldjo <mladen@milentijevic.com>
+ * @copyright  Copyright (c) 2014
  * @license    http://www.opensource.org/licenses/mit-license.html MIT License
  */
 
-namespace Artdarek\OAuth\Facade;
+namespace Mladjo\OAuth\Facade;
 
 use Illuminate\Support\Facades\Facade;
 
