@@ -45,6 +45,13 @@ To learn more about Lusitanian/PHPoAuthLib go [here](https://github.com/Lusitani
 Add oauth-4-laravel to your composer.json file:
 
 ```
+"repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/mladjom/oauth-4-laravel"
+    }
+],
+
 "require": {
   "mladjom/oauth-4-laravel": "dev-master"
 }
