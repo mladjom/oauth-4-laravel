@@ -3,7 +3,7 @@
     "type": "library",
     "description": "OAuth Service Provider for Laravel 4",
     "keywords": ["OAuth", "Lusitanian", "laravel", "php"],
-    "homepage": "https://github.com/artdarek/oauth-4-laravel",
+    "homepage": "https://github.com/mladjom/oauth-4-laravel",
     "license": "MIT",
     "authors": [
         {
