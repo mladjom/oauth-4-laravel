@@ -46,7 +46,7 @@ Add oauth-4-laravel to your composer.json file:
 
 ```
 "require": {
-  "artdarek/oauth-4-laravel": "dev-master"
+  "mladjom/oauth-4-laravel": "dev-master"
 }
 ```
 
@@ -70,7 +70,7 @@ your ``app\config\`` directory (option 2).
 Create configuration file for package using artisan command
 
 ```
-$ php artisan config:publish artdarek/oauth-4-laravel
+$ php artisan config:publish mladjom/oauth-4-laravel
 ```
 
 #### Option 2
@@ -116,13 +116,13 @@ return array(
 Add an alias to the bottom of app/config/app.php
 
 ```php
-'OAuth' => 'Artdarek\OAuth\Facade\OAuth',
+'OAuth' => 'Mladjo\OAuth\Facade\OAuth',
 ```
 
 and register this service provider at the bottom of the `$providers` array:
 
 ```php
-'Artdarek\OAuth\OAuthServiceProvider',
+'Mladjo\OAuth\OAuthServiceProvider',
 ```
 
 ### Credentials
